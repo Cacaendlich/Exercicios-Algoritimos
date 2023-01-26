@@ -7,7 +7,7 @@ algoritmo "PASSO 02 - CONDIÇÕES BÁSICAS"
 // Data : 19/12/2022
 var
    l1, l2, l3: Inteiro
-   tri, eq, is, es: Logico
+   tri: Logico
 inicio
       Escreva("Digite o valor do lado 1: ")
       Leia(l1)
@@ -23,25 +23,5 @@ inicio
          Escreval("TRIANGULO: ", tri)
       FimSe
       
-      Se (l1=l2) e (l2=l3) entao
-         eq <- verdadeiro
-         Escreval("EQUILATERO: ", eq)
-      senao
-          Escreval("EQUILATERO: ", eq)
-      FimSe
-      
-      Se (l1=l2) ou (l2=l3) ou (l1=l3) entao
-         is <- verdadeiro
-         Escreval("ISOSCELES: ", is)
-      senao
-          Escreval("ISOSCELES: ", is)
-      FimSe
-      
-      Se (l1<>l2) e (l2<>l3) e (l1<>l3) entao
-         es <- verdadeiro
-         Escreval("ESCALENO: ", es)
-      senao
-          Escreval("ESCALENO: ", es)
-      FimSe
       
 fimalgoritmo
