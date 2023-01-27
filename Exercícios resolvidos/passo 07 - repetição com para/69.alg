@@ -6,7 +6,20 @@ algoritmo "PASSO 07 – REPETIÇÃO COM PARA"
 // Data : 26/01/2023
 // Seção de Declarações 
 var
-
+   i, t1, t2, razao:Inteiro
 inicio
-// Seção de Comandos 
+      Escreval("=======================")
+      Escreval(" PROGRESSAO ARITMETICA ")
+      Escreval("=======================")
+      
+      Escreva("Digite o primeiro termo: ")
+      Leia(t1)
+      Escreva("Digite a RAZAO da P.A: ")
+      Leia(razao)
+      
+      Para i <- 1 ate 10 faca
+           Escreva(t1)
+           t2 <- t1 + razao
+           t1 <- t2
+      FimPara
 fimalgoritmo
