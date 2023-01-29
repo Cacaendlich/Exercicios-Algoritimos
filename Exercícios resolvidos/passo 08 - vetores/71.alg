@@ -1,6 +1,8 @@
 algoritmo "PASSO 08 – VETORES"
 // 71) Faça um programa que preencha automaticamente um vetor numérico com 8
-// posições.
+// posições,  conforme abaixo:
+// 999 999 999 999 999 999 999 999
+//  0   1   2   3   4   5   6   7
 // Autor :Camila Endlich Pimenta
 // Data : 27/01/2023
 // Seção de Declarações 
@@ -10,6 +12,5 @@ var
 inicio
       Para i <- 0 ate 7 faca
            v[i] <- 999
-           Escreva(v[i])
       FimPara
 fimalgoritmo
