@@ -13,15 +13,21 @@ sorteio: vetor[1..30] de Inteiro
 
 procedimento carregando()
 inicio
+
 escreva ("SORTEANDO")
 timer(500)
+
 escreva(".")
 timer(500)
+
 escreva(".")
 timer(500)
+
 escreval(".")
 timer (0)
+
 limpatela
+
 Fimprocedimento
 
 Procedimento numeros_sorteados()
