@@ -1,11 +1,11 @@
-algoritmo "PASSO 10 – FUNÇÕES"
-// 100) Melhore o exercício 96, criando além da função Media() uma outra função
-// chamada Situacao(), que vai retornar para o programa principal se o aluno está
-// APROVADO, em RECUPERAÇÃO ou REPROVADO. Essa nova função, vai receber como
-// parâmetro o resultado retornado pela função Media()
-// Autor :
+algoritmo "PASSO 10 â€“ FUNÃ‡Ã•ES"
+// 100) Melhore o exercÃ­cio 96, criando alÃ©m da funÃ§Ã£o Media() uma outra funÃ§Ã£o
+// chamada Situacao(), que vai retornar para o programa principal se o aluno estÃ¡
+// APROVADO, em RECUPERAÃ‡ÃƒO ou REPROVADO. Essa nova funÃ§Ã£o, vai receber como
+// parÃ¢metro o resultado retornado pela funÃ§Ã£o Media()
+// Autor : Camila Endlich Pimenta.
 // Data : 11/02/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
   n1, n2: Real
   
